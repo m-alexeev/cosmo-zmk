@@ -7,12 +7,12 @@
         default_layer { 
           display-name = "MAIN";
             bindings = <
-                &kp A &kp A &kp B &kp A &kp B &kp C        &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp B &kp A &kp B &kp C        &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp B &kp A &kp B &kp C        &kp A &kp A &kp A &kp A &kp A &kp A
-                &none &kp Z &kp X &kp C &kp V &kp B        &kp A &kp A &kp A &kp A &kp A &kp A
-                &none &kp Z &kp X &kp C &kp V &kp B        &kp A &kp A &kp A &kp A &kp A &kp A
-                &none &none &none &none &none &kp Z        &kp B &none &none &none &none &none
+                &kp A &kp A &kp B &kp A &kp B &kp C &none &none &kp A &kp A &kp A &kp A &kp A &kp A
+                &kp A &kp A &kp B &kp A &kp B &kp C &none &none &kp A &kp A &kp A &kp A &kp A &kp A
+                &kp A &kp A &kp B &kp A &kp B &kp C &none &none &kp A &kp A &kp A &kp A &kp A &kp A
+                &none &kp Z &kp X &kp C &kp V &kp B &none &none &kp A &kp A &kp A &kp A &kp A &kp A
+                &none &none &kp X &kp C &kp V &kp B &kp C &kp A &kp A &kp A &kp A &kp A &kp A
+                &none &none &none &none &none &kp Z &kp C &kp B &kp C
             >;
         };
     };
