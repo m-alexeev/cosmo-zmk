@@ -78,18 +78,18 @@
               , <&key_physical_attrs 100 100 500 420  300   50  50>
               , <&key_physical_attrs 100 100 600 420  300   50  50>
 
-              , <&key_physical_attrs 100 100 800 420  -300   50  50>
-              , <&key_physical_attrs 100 100 900 420  -300   50  50>
-              , <&key_physical_attrs 100 100 1000 420 -300   50  50>
-              , <&key_physical_attrs 100 100 1100 420   0    50  50>
-              , <&key_physical_attrs 100 100 1200 420   0    50  50>
-              , <&key_physical_attrs 100 100 1300 420   0    50  50>
+              , <&key_physical_attrs 100 100 800 420  (-300)  50  50>
+              , <&key_physical_attrs 100 100 900 420  (-300)  50  50>
+              , <&key_physical_attrs 100 100 1000 420 (-300)  50  50>
+              , <&key_physical_attrs 100 100 1100 420   0     50  50>
+              , <&key_physical_attrs 100 100 1200 420   0     50  50>
+              , <&key_physical_attrs 100 100 1300 420   0     50  50>
 
               , /* ───────── Bottom thumbs (60–63) ───────── */
-              , <&key_physical_attrs 100 100 500 540  300   50  50>
-              , <&key_physical_attrs 100 100 600 540  300   50  50>
-              , <&key_physical_attrs 100 100 700 540 -300   50  50>
-              , <&key_physical_attrs 100 100 800 540 -300   50  50>
+              , <&key_physical_attrs 100 100 500 540  300     50  50>
+              , <&key_physical_attrs 100 100 600 540  300     50  50>
+              , <&key_physical_attrs 100 100 700 540 (-300)   50  50>
+              , <&key_physical_attrs 100 100 800 540 (-300)   50  50>
         ;
     };
 };
