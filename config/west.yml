@@ -4,11 +4,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: module_a_base
+    - name: cosmo
       url-base: https://github.com/m-alexeev/cosmo-zmk
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: cosmo
+      remote: cosmo
+      revision: main
   self:
     path: config
