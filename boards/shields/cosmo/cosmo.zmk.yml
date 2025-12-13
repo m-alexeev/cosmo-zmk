@@ -1,0 +1,12 @@
+file_format: "1"
+id: cosmo
+name: Cosmo
+type: shield
+url: https://github.com/m-alexeev/cosmo-zmk
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - cosmo_left
+  - cosmo_right

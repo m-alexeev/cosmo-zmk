@@ -1,3 +1,4 @@
+name: zephyr-keyboard-cosmo
 build:
   settings:
     board_root: .
