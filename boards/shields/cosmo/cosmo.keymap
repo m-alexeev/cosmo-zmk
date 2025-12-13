@@ -4,14 +4,15 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-        default_layer { // Layer 0
+        default_layer { 
+          display_name = "MAIN";
             bindings = <
-                &kp ESC &kp KP_N1 &kp KP_N2 &kp LCTRL &kp LSHIFT &kp LGUI           &kp LEFT &kp DOWN &kp UP &kp RGHT &kp BSPC &kp DEL
-                &kp Q &kp W &kp E &kp R &kp T &kp Y           &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT
-                &kp A &kp S &kp D &kp F &kp G &kp H           &kp J &kp K &kp L &kp SCLN &kp QUOT &kp ENT
-                &kp Z &kp X &kp C &kp V &kp B &kp N           &kp M &kp COMMA &kp DOT &kp SLSH &kp RALT &kp RGUI
-                &studio_unlock &kp X &kp C &kp V &kp B &kp N           &kp M &kp COMMA &kp DOT &kp SLSH &kp RALT &kp RGUI
-                                        &kp LCTRL &kp LALT           &kp RALT &kp RCTRL
+                &kp A &kp A &kp B &kp A &kp B &kp C                                 &kp LEFT &kp DOWN &kp UP &kp RGHT &kp BSPC &kp DEL
+                &kp Q &kp W &kp E &kp R &kp T &kp Y                                 &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT
+                &kp A &kp S &kp D &kp F &kp G &kp H                                 &kp J &kp K &kp L &kp SCLN &kp QUOT &kp ENT
+                &kp Z &kp X &kp C &kp V &kp B &kp N                                 &kp M &kp COMMA &kp DOT &kp SLSH &kp RALT &kp RGUI
+                &studio_unlock &kp X &kp C &kp V &kp B &kp N                       &kp M &kp COMMA &kp DOT &kp SLSH &kp RALT &kp RGUI
+                                        &kp LCTRL &kp LALT                &kp RALT &kp RCTRL
             >;
         };
     };
