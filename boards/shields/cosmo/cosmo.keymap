@@ -5,7 +5,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer { 
-          display_name = "MAIN";
+          display-name = "MAIN";
             bindings = <
                 &kp A &kp A &kp B &kp A &kp B &kp C        &kp A &kp A &kp A &kp A &kp A &kp A
                 &kp A &kp A &kp B &kp A &kp B &kp C        &kp A &kp A &kp A &kp A &kp A &kp A
