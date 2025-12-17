@@ -82,9 +82,9 @@
               , <&key_physical_attrs 100 100 1300 350 0  0 0>
 
               /*< ───────── Row 4 (48–59) ───────── */
-              , <&key_physical_attrs 100 100 300 420 -250 650 550>
-              , <&key_physical_attrs 100 100 410 430 -150 650 550>
-              , <&key_physical_attrs 100 100 520 440  -50 650 550>
+              , <&key_physical_attrs 100 100 300 420 (-250) 650 550>
+              , <&key_physical_attrs 100 100 410 430 (-150) 650 550>
+              , <&key_physical_attrs 100 100 520 440  (-50) 650 550>
               , <&key_physical_attrs 100 100 630 440   50 650 550>
               , <&key_physical_attrs 100 100 740 430  150 650 550>
 
@@ -95,10 +95,10 @@
               , <&key_physical_attrs 100 100 1200 450  0       0 0>
 
                /* ───────── Bottom thumbs (60–63) ───────── */
-              , <&key_physical_attrs 100 100 480 520 -350 650 550>
-              , <&key_physical_attrs 100 100 580 550 -200 650 550>
-              , <&key_physical_attrs 100 100 680 550    0 650 550>
-              , <&key_physical_attrs 100 100 780 520  200 650 550>
+            , <&key_physical_attrs 100 100 480 520 (-350) 650 550>
+            , <&key_physical_attrs 100 100 580 550 (-200) 650 550>
+            , <&key_physical_attrs 100 100 680 550    0 650 550>
+            , <&key_physical_attrs 100 100 780 520  200 650 550>
         ;
     };
 };
