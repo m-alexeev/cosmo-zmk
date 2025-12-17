@@ -1,8 +1,5 @@
 if SHIELD_SPLITKB_COSMO_LEFT
 
-config BOARD
-    default "Cosmo Left"
-
 config ZMK_KEYBOARD_NAME
     default "Cosmo"
 
@@ -14,7 +11,14 @@ endif # SHIELD_SPLITKB_COSMO_LEFT
 
 if SHIELD_SPLITKB_COSMO_LEFT || SHIELD_SPLITKB_COSMO_RIGHT
 
+
 config ZMK_BLE
+    default y
+
+config BT
+    default y
+
+config BT_PERIPHERAL
     default y
 
 config ZMK_SPLIT
@@ -30,9 +34,6 @@ endif # SHIELD_SPLITKB_COSMO_LEFT || SHIELD_SPLITKB_COSMO_RIGHT
 
 
 if SHIELD_SPLITKB_COSMO_RIGHT
-
-config BOARD
-    default "Cosmo Right"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
