@@ -1,5 +1,5 @@
 config SHIELD_SPLITKB_COSMO_LEFT
-    def_bool $(shields_list_contains,splitkb_cosmo_left)
+    def_bool $(shields_list_contains,cosmo_left)
 
 config SHIELD_SPLITKB_COSMO_RIGHT
-    def_bool $(shields_list_contains,splitkb_cosmo_right)
+    def_bool $(shields_list_contains,cosmo_right)
