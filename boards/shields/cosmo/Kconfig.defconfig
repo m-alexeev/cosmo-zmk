@@ -1,7 +1,7 @@
 if SHIELD_SPLITKB_COSMO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Cosmo Test"
+    default "Cosmo"
 
 config ZMK_SPLIT_ROLE_CENTRAL
   default y
