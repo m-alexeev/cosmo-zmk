@@ -32,12 +32,13 @@
           display-name = "CONTROL";
             bindings = <
        &studio_unlock &kp B &kp C &kp D &kp E &kp F                 &kp I &kp J &kp K &kp L &kp M &kp N
-          &bootloader &kp Q &kp W &kp E &kp R &kp T                 &kp I &kp J &kp K &kp L &kp M &kp N
+          &bootloader &kp Q &kp W &kp E &kp R &kp T                 &kp I &kp J &kp K &kp L &kp M &bootloader
                 &kp A &kp A &kp S &kp D &kp F &kp G                 &kp I &kp J &kp K &kp L &kp M &kp N
                 &kp A &kp B &kp Z &kp C &kp V &kp B                 &kp I &kp J &kp K &kp L &kp M &kp N
                             &kp C &kp D &kp E &kp F &kp G     &kp H &kp I &kp J &kp K &kp L 
                                               &kp F &kp G     &kp H &kp I 
             >;
+            
         };
     };
  };
